@@ -11,7 +11,7 @@ function me_irl(){
   var url = "";
   request('https://www.reddit.com/r/meirl/.rss', function (error, response, body) {
   if (!error && response.statusCode == 200) {
-    url = console.log(body) // Show the HTML for the Google homepage. 
+    url = console.log(body)
   }
   })
   var re = new RegExp("([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))");
