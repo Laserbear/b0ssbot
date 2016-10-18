@@ -30,4 +30,4 @@ client.on('message', message => {
   }
 });
 
-client.login('-redacted-');
+client.login('MjM3MDc2MTU5Njg1MzI4ODk4.CuSbvQ.VL9FG51fIIi9mD-q4JDh0cX4uZY');
